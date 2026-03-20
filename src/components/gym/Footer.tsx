@@ -1,4 +1,5 @@
 import { Instagram, Twitter, Facebook, Youtube } from "lucide-react";
+import {logo} from "public/logo.png";
 
 const Footer = () => {
   const socials = [
@@ -14,7 +15,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <p className="text-xl font-bold tracking-tighter">
             <img
-            src="public/logo.png"
+            src={logo}
             alt="FLEXFIT logo"
             className="h-24 w-24 object-contain"
             width={96}
