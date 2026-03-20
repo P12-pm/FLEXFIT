@@ -13,7 +13,14 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <p className="text-xl font-bold tracking-tighter">
-            FLEX<span className="text-primary">FIT</span>
+            <img
+            src="public/logo.png"
+            alt="FLEXFIT logo"
+            className="h-24 w-24 object-contain"
+            width={96}
+            height={96}
+            loading="lazy"
+          />
           </p>
 
           <div className="flex items-center gap-6">

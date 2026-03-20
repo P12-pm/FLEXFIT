@@ -6,48 +6,48 @@
 
 @layer base {
   :root {
-    --background: 220 20% 7%;
-    --foreground: 210 20% 92%;
+    --background: 220 18% 8%;
+    --foreground: 210 20% 96%;
 
-    --card: 220 18% 10%;
-    --card-foreground: 210 20% 92%;
+    --card: 220 16% 10%;
+    --card-foreground: 210 20% 96%;
 
-    --popover: 220 18% 10%;
-    --popover-foreground: 210 20% 92%;
+    --popover: 220 16% 12%;
+    --popover-foreground: 210 20% 96%;
 
-    --primary: 210 70% 55%;
-    --primary-foreground: 220 20% 7%;
+    --primary: 19 96% 50%;        /* vivid orange */
+    --primary-foreground: 220 20% 8%;
 
-    --secondary: 220 15% 15%;
-    --secondary-foreground: 210 20% 85%;
+    --secondary: 210 16% 16%;     /* subtle dark panel */
+    --secondary-foreground: 210 20% 92%;
 
-    --muted: 220 15% 13%;
-    --muted-foreground: 215 15% 55%;
+    --muted: 220 14% 14%;
+    --muted-foreground: 215 12% 60%;
 
-    --accent: 210 70% 55%;
-    --accent-foreground: 220 20% 7%;
+    --accent: 180 90% 45%;        /* energetic cyan/teal */
+    --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 80% 55%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 220 15% 18%;
-    --input: 220 15% 18%;
-    --ring: 210 70% 55%;
+    --border: 220 16% 16%;
+    --input: 220 16% 14%;
+    --ring: 180 90% 45%;
 
     --radius: 0.75rem;
 
-    --sidebar-background: 220 18% 8%;
-    --sidebar-foreground: 210 20% 85%;
-    --sidebar-primary: 210 70% 55%;
-    --sidebar-primary-foreground: 220 20% 7%;
-    --sidebar-accent: 220 15% 13%;
-    --sidebar-accent-foreground: 210 20% 85%;
-    --sidebar-border: 220 15% 18%;
-    --sidebar-ring: 210 70% 55%;
+    --sidebar-background: 220 16% 9%;
+    --sidebar-foreground: 210 20% 92%;
+    --sidebar-primary: 19 96% 50%;
+    --sidebar-primary-foreground: 220 20% 8%;
+    --sidebar-accent: 180 90% 45%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 220 16% 16%;
+    --sidebar-ring: 180 90% 45%;
 
     --steel: 210 70% 55%;
-    --steel-glow: 210 80% 65%;
-    --steel-dim: 210 50% 35%;
+    --steel-glow: 180 95% 60%;
+    --steel-dim: 210 50% 36%;
   }
 }
 
@@ -81,4 +81,17 @@ html {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: hsl(210 70% 55% / 0.6);
+}
+
+/* keep a default :root as fallback, then theme classes */
+.theme-light {
+  --background: 210 18% 98%;
+  --foreground: 215 18% 12%;
+  /* ...other variables (same names as above) ... */
+}
+
+.theme-vibrant {
+  --background: 230 18% 6%;
+  --foreground: 210 20% 94%;
+  /* ... */
 }
