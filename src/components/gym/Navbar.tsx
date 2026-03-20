@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import logo from "public/logo.png";
 
 const links = ["Home", "About", "Plans", "Facilities", "Gallery", "Contact"];
 
