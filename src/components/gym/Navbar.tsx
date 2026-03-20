@@ -29,7 +29,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16 lg:h-20">
         <button onClick={() => scrollTo("home")} className="flex items-center gap-3 text-2xl font-bold tracking-tighter">
           <img
-            src="public/logo.png"
+            src={logo}
             alt="FLEXFIT logo"
             className="h-24 w-24 object-contain"
             width={96}
