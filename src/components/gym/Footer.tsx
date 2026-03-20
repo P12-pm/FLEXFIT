@@ -1,5 +1,5 @@
 import { Instagram, Twitter, Facebook, Youtube } from "lucide-react";
-import {logo} from "public/logo.png";
+import logo from "public/logo.png";
 
 const Footer = () => {
   const socials = [
